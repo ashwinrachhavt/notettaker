@@ -2,7 +2,6 @@ import React from "react";
 import TipTap from "../TipTap";
 import Toolbar from "./Toolbar";
 import CommandPalette from "./CommandPalette";
-import AIAssistant from "./AIAssistant";
 
 const Editor: React.FC = () => {
   return (
@@ -13,9 +12,7 @@ const Editor: React.FC = () => {
       <main className="mb-4">
         <TipTap />
       </main>
-      <aside className="pt-2 mt-4 border-t border-border">
-        <AIAssistant />
-      </aside>
+      
       <CommandPalette />
     </div>
   );
