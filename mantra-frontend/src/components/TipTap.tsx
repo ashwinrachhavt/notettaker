@@ -9,7 +9,11 @@ const Tiptap = () => {
     content: '<p>Hello World! 🌎️</p>',
   })
 
-  return <EditorContent editor={editor} />
+  return (
+    <div className="border border-border rounded-lg p-4 bg-card shadow">
+      <EditorContent editor={editor} />
+    </div>
+  )
 }
 
 export default Tiptap

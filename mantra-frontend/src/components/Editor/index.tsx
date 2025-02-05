@@ -6,14 +6,14 @@ import AIAssistant from "./AIAssistant";
 
 const Editor: React.FC = () => {
   return (
-    <div className="flex flex-col h-screen">
-      <header className="p-4 border-b">
+    <div className="container mx-auto min-h-screen bg-background p-6 rounded-lg shadow-md">
+      <header className="pb-2 mb-4 border-b border-border">
         <Toolbar />
       </header>
-      <main className="flex-1 overflow-auto p-4">
+      <main className="mb-4">
         <TipTap />
       </main>
-      <aside className="p-4 border-t">
+      <aside className="pt-2 mt-4 border-t border-border">
         <AIAssistant />
       </aside>
       <CommandPalette />

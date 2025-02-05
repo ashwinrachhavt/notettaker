@@ -18,7 +18,7 @@ const CommandPalette: React.FC = () => {
   if (!visible) return null;
 
   return (
-    <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 bg-white border rounded shadow p-4 z-50">
+    <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 bg-card border border-border rounded-lg shadow-lg p-4 z-50">
       <input
         type="text"
         placeholder="Type a command..."
